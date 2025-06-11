@@ -9,9 +9,9 @@ const questions = [
     ],
     "answer": [
       "https://www.examtopics.com/assets/media/exam-media/04339/0002600001.png"
-      "Load balancer -> Big Query"
     ],
     "multiple": false
+        "explanation": "Load balancer -> GCE -> Pub/Sub -> Dataflow -> BigQuery -> Analysts."
   },
 ];
 
@@ -170,6 +170,11 @@ nextBtn.addEventListener("click", () => {
     } else {
       resultEl.innerHTML = `<p style="color: red;">❌ Incorrect.</p>
                             <p>Correct Answer: <strong>${correctAnswers.join(", ")}</strong></p>`;
+    }
+
+    // ⬇️ Add this below the feedback
+    if (currentQ.explanation) {
+      resultEl.innerHTML += `<p class="explanation"><strong>Explanation:</strong> ${currentQ.explanation}</p>`;
     }
 
     nextBtn.textContent = currentQuestion < questions.length - 1 ? "Next Question" : "See Result";
