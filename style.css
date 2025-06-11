@@ -37,7 +37,11 @@ body {
   margin-top: 8px;
 }
 
-
+.explanation {
+  margin-top: 10px;
+  font-style: italic;
+  color: #333;
+}
   button {
     width: 100%;
   }
