@@ -9,6 +9,7 @@ const questions = [
     ],
     "answer": [
       "https://www.examtopics.com/assets/media/exam-media/04339/0002600001.png"
+      "Load balancer -> Big Query"
     ],
     "multiple": false
   },
