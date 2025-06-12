@@ -129,7 +129,8 @@ const questions = [
       "Enclose the vehicle's drive electronics in a Faraday cage to isolate chips."
     ],
     "answer": [
-      "Treat every micro service call between modules on the vehicle as untrusted.;Use a trusted platform module (TPM) and verify firmware and binaries on boot."
+      "Treat every micro service call between modules on the vehicle as untrusted.",
+      "Use a trusted platform module (TPM) and verify firmware and binaries on boot."
     ],
     "multiple": true
   },
@@ -260,7 +261,8 @@ const questions = [
       "Post a question regarding the CVE in a Google Cloud discussion group to get an explanation."
     ],
     "answer": [
-      "Open a support case regarding the CVE and chat with the support engineer.;Read the CVEs from the Google Cloud Platform Security Bulletins to understand the impact."
+      "Open a support case regarding the CVE and chat with the support engineer."
+      "Read the CVEs from the Google Cloud Platform Security Bulletins to understand the impact."
     ],
     "multiple": true
   },
