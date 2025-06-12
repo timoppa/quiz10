@@ -261,7 +261,7 @@ const questions = [
       "Post a question regarding the CVE in a Google Cloud discussion group to get an explanation."
     ],
     "answer": [
-      "Open a support case regarding the CVE and chat with the support engineer."
+      "Open a support case regarding the CVE and chat with the support engineer.",
       "Read the CVEs from the Google Cloud Platform Security Bulletins to understand the impact."
     ],
     "multiple": true
